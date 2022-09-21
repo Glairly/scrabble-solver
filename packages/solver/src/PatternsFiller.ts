@@ -1,4 +1,4 @@
-import { Trie } from '@kamilmielnik/trie';
+import { Trie } from 'trie';
 import { EMPTY_CELL } from '@scrabble-solver/constants';
 import { Config, Pattern, Tile } from '@scrabble-solver/types';
 

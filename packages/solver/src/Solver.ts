@@ -1,4 +1,4 @@
-import { Trie } from '@kamilmielnik/trie';
+import { Trie } from 'trie';
 import { Board, Config, Pattern, Result, Tile } from '@scrabble-solver/types';
 import uniqBy from 'lodash/uniqBy';
 

@@ -30,7 +30,7 @@
     "postbuild": "node ./bin/update-dictionaries.js"
   },
   "dependencies": {
-    "@kamilmielnik/trie": "^1.0.3",
+    "trie" : "../trie",
     "@scrabble-solver/logger": "^2.8.0",
     "@scrabble-solver/types": "^2.8.0",
     "@scrabble-solver/word-lists": "^2.8.0"

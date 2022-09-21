@@ -1,4 +1,4 @@
-import { Trie } from '@kamilmielnik/trie';
+import { Trie } from 'trie';
 import { Locale } from '@scrabble-solver/types';
 
 import { CACHE_STALE_THRESHOLD } from '../constants';
