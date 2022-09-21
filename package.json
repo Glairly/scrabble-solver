@@ -33,6 +33,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
+    "reload" : "npm run build && npm run start",
     "clean": "lerna run clean && rimraf node_modules/",
     "clean:force": "lerna run clean:force && rimraf node_modules/ package-lock.json",
     "install:dev": "npm run bootstrap && npm run build",

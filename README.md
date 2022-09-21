@@ -54,6 +54,19 @@ rm -rf $HOME/.scrabble-solver
 - [Node.js](https://nodejs.org/) 16+
 - min. `1000px x 700px` viewport size (`1500px x 1200px` recommended)
 
+## Constribute
+
+consider change eslint breakline settings from windows -> unix as your prefer.
+
+```powershell
+# install all required dependencies i.e. tools
+npm run install
+# install all packages dependencies 
+npm run install:dev
+# serve the app
+npm run start
+```
+
 ## Dictionaries
 
 | Language     | Locale | Word list                                                                     | Word list (source)                                                                                       | Word definitions                                                               |
