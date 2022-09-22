@@ -1,7 +1,7 @@
-import { Trie } from 'trie';
 import logger from '@scrabble-solver/logger';
 import { Locale } from '@scrabble-solver/types';
 import fs from 'fs';
+import { Trie } from 'trie';
 
 import { OUTPUT_DIRECTORY } from './constants';
 import { createAsyncProxy, downloadDictionary, LayeredCache } from './lib';

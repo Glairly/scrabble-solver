@@ -2,9 +2,9 @@ import { getLocaleConfig } from '@scrabble-solver/configs';
 import { BLANK } from '@scrabble-solver/constants';
 import { dictionaries } from '@scrabble-solver/dictionaries';
 import logger from '@scrabble-solver/logger';
-import Solver from '@scrabble-solver/solver';
 import { Board, Config, Locale, Tile } from '@scrabble-solver/types';
 import { NextApiRequest, NextApiResponse } from 'next';
+import Solver from 'solver';
 
 import { getServerLoggingData, validateBoard, validateCharacters, validateConfigId, validateLocale } from 'api';
 
