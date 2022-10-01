@@ -36,7 +36,14 @@ class Solver {
           points: this.scoresCalculator.calculate(pattern),
         }),
     );
-    return results;
+    const getBestResult = ([firstResult, ...results]: Result[]): Result => {
+      return results.reduce(
+        (bestResultCandidate, result) => (result.points > bestResultCandidate.points ? result : bestResultCandidate),
+        firstResult,
+      );
+    };
+    const bestResult = getBestResult(results);
+    return [bestResult];
   }
 }
 
